@@ -2,7 +2,7 @@
 
 Name: mini-meteoroids! REDUX  
 Category: Games  
-Started on: 24th of January, 2023  
+Started on: 24th of February, 2023  
 
 Status: In development  
 Platforms: Android
