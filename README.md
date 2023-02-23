@@ -1,8 +1,8 @@
 ## BASIC INFORMATION
 
-Name: mini meteoroids!  
+Name: mini-meteoroids! REDUX  
 Category: Games  
-Started on: 20th of January, 2023  
+Started on: 24th of January, 2023  
 
 Status: In development  
 Platforms: Android
@@ -14,10 +14,10 @@ Framework: Unity
 Programming Language: C#
 
 ## DESCRIPTION
-Asteroids, but with like a tower defense / shooting kinda twist
+mini-meteoroids! but with improved UI and customizable control scheme
 
 ## RELEASE INFORMATION
 TBA
 
 ## LICENSE
-Licensed under the [MIT license](https://github.com/viethung204/METEOROIDS_mobile/blob/main/LICENSE.md).
+Licensed under the [MIT license](https://github.com/viethung204/MINI_METEOROIDS_REDUX/blob/main/LICENSE.md).
