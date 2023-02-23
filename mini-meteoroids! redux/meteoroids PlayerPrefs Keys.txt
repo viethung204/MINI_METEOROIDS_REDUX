@@ -1,0 +1,5 @@
+CRTState - keeps track of CRT
+volume - keeps track of volume
+
+MenuScore - keeps hold of old score value/main menu's score
+NewScore - keeps hold of session's score
