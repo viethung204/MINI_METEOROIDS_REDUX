@@ -11,12 +11,6 @@ public class Pause : MonoBehaviour
     public GameObject mainPause;
     public GameObject options;
 
-    public GameObject resumeTri;
-    public GameObject optionsTri;
-    public GameObject q2mTri;
-    public GameObject quitTri;
-    public GameObject volumeTri;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -50,11 +44,6 @@ public class Pause : MonoBehaviour
         pauseMenuUI.SetActive(true);
         mainPause.SetActive(true);
         options.SetActive(false);
-        resumeTri.SetActive(true);
-        optionsTri.SetActive(false);
-        q2mTri.SetActive(false);
-        quitTri.SetActive(false);
-        volumeTri.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
     }

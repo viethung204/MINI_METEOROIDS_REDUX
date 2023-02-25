@@ -10,7 +10,7 @@ public class audio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        setVolume = PlayerPrefs.GetInt("volume");
+        setVolume = PlayerPrefs.GetFloat("volume");
         allAudios = GameObject.FindObjectsOfType<AudioSource>();
         foreach(AudioSource audioSource in allAudios)
         {

@@ -1,23 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CRTControl : MonoBehaviour
 {
 
-    public SpriteRenderer box;
+    public Image box;
     public Sprite tickbox0;
     public Sprite tickbox1;
 
     public int CRTState = 0;
-    CRTPostEffecter MainCam;
-    CRTPostEffecter BackCam;
+    public CRTPostEffecter MainCam;
 
-    // Start is called before the first frame update
-    void Start()
+    public AudioSource selecting;
+
+    private void Start()
     {
-        MainCam = GameObject.Find("Main Camera").GetComponent<CRTPostEffecter>();
-        BackCam = GameObject.Find("BackgroundCam").GetComponent<CRTPostEffecter>();
+        selecting = GameObject.Find("AudioManager").GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -30,17 +30,16 @@ public class CRTControl : MonoBehaviour
         if(CRTState == 0)
         {
             MainCam.enabled = false;
-            BackCam.enabled = false;
         }
         else
         {
             MainCam.enabled = true;
-            BackCam.enabled = true;
         }
     }
 
     public void changeCRT()
     {
+        selecting.Play();
         CRTState = CRTState == 1 ? 0
             : 1;
         PlayerPrefs.SetInt("CRTState", CRTState);
