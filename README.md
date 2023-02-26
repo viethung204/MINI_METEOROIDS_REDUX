@@ -21,4 +21,4 @@ mini-meteoroids! but with improved UI and customizable control scheme
 Finished on 26th of February, 2023
 
 ## LICENSE
-Licensed under the [MIT license](https://github.com/viethung204/MINI_METEOROIDS_REDUX/blob/main/LICENSE.md).
+All rights reserved.
