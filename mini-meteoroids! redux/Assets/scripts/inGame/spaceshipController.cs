@@ -79,8 +79,27 @@ public class spaceshipController : MonoBehaviour
         cooldown = 0.25f;
     }
 
-    public void ResetVelocity()
+    public void ResetVelocityLeft()
     {
-        rgbody.angularVelocity = 0;
+        if(rgbody.angularVelocity < 0)
+        {
+            rgbody.angularVelocity = 0;
+        }
+        else
+        {
+            return;
+        }
+    }
+
+    public void ResetVelocityRight()
+    {
+        if (rgbody.angularVelocity > 0)
+        {
+            rgbody.angularVelocity = 0;
+        }
+        else
+        {
+            return;
+        }
     }
 }
