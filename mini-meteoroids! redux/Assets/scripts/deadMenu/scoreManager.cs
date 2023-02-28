@@ -17,7 +17,7 @@ public class scoreManager : MonoBehaviour
         score = PlayerPrefs.GetInt("NewScore");
         oldScore = PlayerPrefs.GetInt("MenuScore");
 
-        scoreText.text = "Your score is: " + "<color=yellow>"+score+"</color>";
+        scoreText.text = "Your score is: " + "<color=yellow>"+score.ToString("00")+"</color>";
 
         if (score > oldScore)
         {

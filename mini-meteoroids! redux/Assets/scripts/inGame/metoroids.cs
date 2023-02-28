@@ -21,9 +21,12 @@ public class metoroids : MonoBehaviour
 
     metoroids[] MET;
 
+    BoxCollider2D selfCollider;
+
     // Start is called before the first frame update
     void Start()
     {
+        selfCollider = gameObject.GetComponent<BoxCollider2D>();
         rigid = gameObject.GetComponent<Rigidbody2D>();
         rigid.angularVelocity = Random.Range(-150f, 150f);
         scored = GameObject.Find("ScoreManager").GetComponent<Scored>();
@@ -50,6 +53,7 @@ public class metoroids : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("bullet"))
         {
+            selfCollider.enabled = false;
             explosion.ExplosionAudio();
             rigid.angularVelocity = 0;
             //rigid.velocity = Vector3.zero;

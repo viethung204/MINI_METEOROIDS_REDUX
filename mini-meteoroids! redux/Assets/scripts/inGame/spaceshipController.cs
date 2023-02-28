@@ -12,7 +12,7 @@ public class spaceshipController : MonoBehaviour
 
     public GameObject bulletPrefab;
     public Transform bulletSpawnpoint;
-    public float cooldown = 0.25f;
+    float cooldown = 0.25f;
     public float bulletThrust;
 
     Animator shipAnimator;
@@ -72,11 +72,18 @@ public class spaceshipController : MonoBehaviour
 
     public void Shoot()
     {
-        pew.Play();
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnpoint.position, bulletSpawnpoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce((bulletSpawnpoint.transform.up).normalized * bulletThrust, ForceMode2D.Impulse);
-        cooldown = 0.25f;
+        if(cooldown == 0)
+        {
+            pew.Play();
+            GameObject bullet = Instantiate(bulletPrefab, bulletSpawnpoint.position, bulletSpawnpoint.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce((bulletSpawnpoint.transform.up).normalized * bulletThrust, ForceMode2D.Impulse);
+            cooldown = 0.25f;
+        }
+        else
+        {
+            return;
+        }
     }
 
     public void ResetVelocityLeft()
