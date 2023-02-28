@@ -1338,7 +1338,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 716374979}
-  - component: {fileID: 716374978}
   - component: {fileID: 716374977}
   m_Layer: 0
   m_Name: CRTControl
@@ -1365,19 +1364,6 @@ MonoBehaviour:
   CRTState: 0
   MainCam: {fileID: 990591359}
   selecting: {fileID: 0}
---- !u!114 &716374978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716374976}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c3a24ee5fa00c343b9cbd5c79fdd987, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CRTState: 0
 --- !u!4 &716374979
 Transform:
   m_ObjectHideFlags: 0
@@ -3418,8 +3404,8 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 2960, y: 1080}
-  m_ScreenMatchMode: 2
+  m_ReferenceResolution: {x: 2220, y: 1080}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

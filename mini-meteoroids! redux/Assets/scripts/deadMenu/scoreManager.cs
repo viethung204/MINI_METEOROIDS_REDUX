@@ -17,13 +17,9 @@ public class scoreManager : MonoBehaviour
         score = PlayerPrefs.GetInt("NewScore");
         oldScore = PlayerPrefs.GetInt("MenuScore");
 
-        scoreText.text = "Your score is: " + "<color=yellow>"+score+"</color>"; 
-    }
+        scoreText.text = "Your score is: " + "<color=yellow>"+score+"</color>";
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(score > oldScore)
+        if (score > oldScore)
         {
             congratsText.enabled = true;
             PlayerPrefs.SetInt("MenuScore", score);
@@ -32,5 +28,19 @@ public class scoreManager : MonoBehaviour
         {
             congratsText.enabled = false;
         }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //if(score > oldScore)
+        //{
+        //    congratsText.enabled = true;
+        //    PlayerPrefs.SetInt("MenuScore", score);
+        //}
+        //else
+        //{
+        //    congratsText.enabled = false;
+        //}
     }
 }

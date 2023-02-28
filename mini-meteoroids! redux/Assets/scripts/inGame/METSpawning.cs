@@ -48,6 +48,7 @@ public class METSpawning : MonoBehaviour
         Spawn06 = GameObject.Find("spawn7");
         Spawn07 = GameObject.Find("spawn8");
         ship = GameObject.Find("spaceship");
+        StartCooldown = 4;
         savedCooldown = StartCooldown;
         eachDuration = Duration;
         
@@ -56,7 +57,7 @@ public class METSpawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer = Time.time;
+        timer = Time.timeSinceLevelLoad;
         if (timer > eachDuration && time == true)
         {
             savedCooldown -= 0.5f;

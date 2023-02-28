@@ -177,7 +177,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30192264}
-  - component: {fileID: 30192265}
   m_Layer: 0
   m_Name: spawn5
   m_TagString: Untagged
@@ -200,18 +199,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &30192265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30192263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &36531092
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +959,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 2960, y: 1080}
+  m_ReferenceResolution: {x: 2220, y: 1080}
   m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1544,7 +1531,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 280764628}
-  - component: {fileID: 280764629}
   m_Layer: 0
   m_Name: spawn2
   m_TagString: Untagged
@@ -1567,18 +1553,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &280764629
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 280764627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &285452310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,7 +1657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   torque: 40
-  limit: 140
+  limit: 170
   bulletPrefab: {fileID: 5422954718405382935, guid: a46317bfa6caf004c9b8bfe991c0e994, type: 3}
   bulletSpawnpoint: {fileID: 915348560}
   cooldown: 0.25
@@ -2191,7 +2165,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 408183287}
-  - component: {fileID: 408183288}
   m_Layer: 0
   m_Name: spawn4
   m_TagString: Untagged
@@ -2214,18 +2187,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &408183288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 408183286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &409332482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4031,7 +3992,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 2960, y: 1080}
+  m_ReferenceResolution: {x: 2220, y: 1080}
   m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -4249,7 +4210,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 783812818}
-  - component: {fileID: 783812819}
   m_Layer: 0
   m_Name: spawn6
   m_TagString: Untagged
@@ -4272,18 +4232,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &783812819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783812817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &828147069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5013,7 +4961,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 898994827}
-  - component: {fileID: 898994828}
   m_Layer: 0
   m_Name: spawn8
   m_TagString: Untagged
@@ -5036,18 +4983,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &898994828
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 898994826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &905103810
 GameObject:
   m_ObjectHideFlags: 0
@@ -11570,7 +11505,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1920109975}
-  - component: {fileID: 1920109976}
   m_Layer: 0
   m_Name: spawn7
   m_TagString: Untagged
@@ -11593,18 +11527,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1920109976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1920109974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1946218697
 GameObject:
   m_ObjectHideFlags: 0
@@ -11614,7 +11536,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1946218698}
-  - component: {fileID: 1946218699}
   m_Layer: 0
   m_Name: spawn1
   m_TagString: Untagged
@@ -11637,18 +11558,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1946218699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946218697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1967260089
 GameObject:
   m_ObjectHideFlags: 0
@@ -12855,7 +12764,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2125218136}
-  - component: {fileID: 2125218137}
   m_Layer: 0
   m_Name: spawn3
   m_TagString: Untagged
@@ -12878,18 +12786,6 @@ Transform:
   m_Father: {fileID: 354492857}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2125218137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125218135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a997f5b8da89574a92fc755cf546f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2133714906
 GameObject:
   m_ObjectHideFlags: 0
