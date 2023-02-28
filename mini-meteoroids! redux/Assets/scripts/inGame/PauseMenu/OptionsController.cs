@@ -18,13 +18,9 @@ public class OptionsController : MonoBehaviour
         selecting = GameObject.Find("AudioManager").GetComponent<AudioSource>();
     }
 
-    private void Update()
-    {
-    }
-
-
     public void Back()
     {
+        selecting.Play();
         optionsHolder.SetActive(false);
         mainPause.SetActive(true);
     }

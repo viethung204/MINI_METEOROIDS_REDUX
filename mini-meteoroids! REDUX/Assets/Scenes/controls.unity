@@ -707,7 +707,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &245856813
 GameObject:
@@ -3262,51 +3262,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 879157358}
   m_CullTransparentMesh: 0
---- !u!1 &1056290602
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1056290604}
-  - component: {fileID: 1056290603}
-  m_Layer: 0
-  m_Name: CRT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1056290603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056290602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c3a24ee5fa00c343b9cbd5c79fdd987, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CRTState: 0
---- !u!4 &1056290604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056290602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.3838544, y: 8.917065, z: 530.57623}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1115284548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6218,7 +6173,6 @@ GameObject:
   - component: {fileID: 1998878461}
   - component: {fileID: 1998878458}
   - component: {fileID: 1998878460}
-  - component: {fileID: 1998878459}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6269,50 +6223,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &1998878459
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1998878457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbe347f49d2f8a04d913547329b97143, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 1daa5a834babeca49aad070cc502314b, type: 2}
-  whiteNoiseFrequency: 0
-  whiteNoiseLength: 0
-  screenJumpFrequency: 0
-  screenJumpLength: 0
-  screenJumpMinLevel: 0
-  screenJumpMaxLevel: 0
-  flickeringStrength: 0.002
-  flickeringCycle: 111
-  isSlippage: 0
-  isSlippageNoise: 1
-  slippageStrength: 0.0005
-  slippageInterval: 1
-  slippageScrollSpeed: 33
-  slippageSize: 11
-  chromaticAberrationStrength: 0
-  isChromaticAberration: 1
-  isMultipleGhost: 1
-  multipleGhostStrength: 0.007
-  isScanline: 1
-  isMonochrome: 0
-  isLetterBox: 0
-  isLetterBoxEdgeBlur: 0
-  letterBoxType: 0
-  isFilmDirt: 0
-  filmDirtTex: {fileID: 0}
-  isDecalTex: 0
-  decalTex: {fileID: 0}
-  decalTexPos: {x: 0, y: 0}
-  decalTexScale: {x: 0, y: 0}
-  isLowResolution: 1
-  resolutions: {x: 0, y: 0}
 --- !u!81 &1998878460
 AudioListener:
   m_ObjectHideFlags: 0
