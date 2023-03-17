@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 2521700}
   - component: {fileID: 2521699}
   - component: {fileID: 2521698}
+  - component: {fileID: 2521701}
   m_Layer: 5
   m_Name: shootRight
   m_TagString: Untagged
@@ -206,19 +207,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 797587973}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2521699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -257,6 +246,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2521695}
   m_CullTransparentMesh: 1
+--- !u!114 &2521701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &35684918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,7 +1309,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 2220, y: 1080}
-  m_ScreenMatchMode: 2
+  m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -1926,7 +1944,6 @@ MonoBehaviour:
   limit: 140
   bulletPrefab: {fileID: 5422954718405382935, guid: a46317bfa6caf004c9b8bfe991c0e994, type: 3}
   bulletSpawnpoint: {fileID: 593022323}
-  cooldown: 0.25
   bulletThrust: 30
   pew: {fileID: 745812640}
 --- !u!82 &745812640
@@ -2469,6 +2486,7 @@ GameObject:
   - component: {fileID: 799884419}
   - component: {fileID: 799884418}
   - component: {fileID: 799884417}
+  - component: {fileID: 799884420}
   m_Layer: 5
   m_Name: shootRight
   m_TagString: Untagged
@@ -2540,19 +2558,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 799884418}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &799884418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2591,6 +2597,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 799884415}
   m_CullTransparentMesh: 1
+--- !u!114 &799884420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799884415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &808298672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4325,6 +4360,7 @@ GameObject:
   - component: {fileID: 1429174955}
   - component: {fileID: 1429174954}
   - component: {fileID: 1429174953}
+  - component: {fileID: 1429174956}
   m_Layer: 5
   m_Name: shootRight
   m_TagString: Untagged
@@ -4396,19 +4432,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2071302448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1429174954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4447,6 +4471,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429174950}
   m_CullTransparentMesh: 1
+--- !u!114 &1429174956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429174950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1484184045
 GameObject:
   m_ObjectHideFlags: 0
@@ -4596,6 +4649,7 @@ GameObject:
   - component: {fileID: 1515892217}
   - component: {fileID: 1515892216}
   - component: {fileID: 1515892215}
+  - component: {fileID: 1515892218}
   m_Layer: 5
   m_Name: shootLeft
   m_TagString: Untagged
@@ -4667,19 +4721,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 821399784}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1515892216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4718,6 +4760,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515892212}
   m_CullTransparentMesh: 1
+--- !u!114 &1515892218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515892212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1579171824
 GameObject:
   m_ObjectHideFlags: 0
@@ -4806,6 +4877,7 @@ GameObject:
   - component: {fileID: 1633322992}
   - component: {fileID: 1633322991}
   - component: {fileID: 1633322990}
+  - component: {fileID: 1633322993}
   m_Layer: 5
   m_Name: shootLeft
   m_TagString: Untagged
@@ -4877,19 +4949,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1633322991}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1633322991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4928,6 +4988,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1633322988}
   m_CullTransparentMesh: 1
+--- !u!114 &1633322993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633322988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1641231195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5221,6 +5310,7 @@ GameObject:
   - component: {fileID: 1813189932}
   - component: {fileID: 1813189931}
   - component: {fileID: 1813189930}
+  - component: {fileID: 1813189933}
   m_Layer: 5
   m_Name: shootRight
   m_TagString: Untagged
@@ -5292,19 +5382,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1813189931}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1813189931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5343,6 +5421,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813189928}
   m_CullTransparentMesh: 1
+--- !u!114 &1813189933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813189928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1878392148
 GameObject:
   m_ObjectHideFlags: 0
@@ -6392,6 +6499,7 @@ GameObject:
   - component: {fileID: 2013196805}
   - component: {fileID: 2013196804}
   - component: {fileID: 2013196803}
+  - component: {fileID: 2013196806}
   m_Layer: 5
   m_Name: shootLeft
   m_TagString: Untagged
@@ -6463,19 +6571,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2013196804}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2013196804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6514,6 +6610,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013196801}
   m_CullTransparentMesh: 1
+--- !u!114 &2013196806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013196801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2050347716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,6 +6651,7 @@ GameObject:
   - component: {fileID: 2050347721}
   - component: {fileID: 2050347720}
   - component: {fileID: 2050347719}
+  - component: {fileID: 2050347722}
   m_Layer: 5
   m_Name: shootLeft
   m_TagString: Untagged
@@ -6597,19 +6723,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2071302448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 745812639}
-        m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
-        m_MethodName: Shoot
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2050347720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6648,6 +6762,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2050347716}
   m_CullTransparentMesh: 1
+--- !u!114 &2050347722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050347716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 745812639}
+          m_TargetAssemblyTypeName: spaceshipController, Assembly-CSharp
+          m_MethodName: Shoot
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2071302445
 GameObject:
   m_ObjectHideFlags: 0
